@@ -60,7 +60,12 @@ public class SearchController {
             if (nameMatches || descMatches) {
                 itemList.add(item);
             }
+            public Collection<ProductItem> searchProducts(String query) {
+            return Collections.emptyList();
+            }
         }
         return itemList;
+
+        
     }
 }
